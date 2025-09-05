@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>pcd_merge</name>
+    <version>0.0.1</version>
+    <description>Merge multiple pointclouds into one.</description>
+    <maintainer email="vlkjan6@fel.cvut.cz">Jan Vlk</maintainer>
+    <license>BSD</license>
+    <!-- <url type="website">https://github.com/tpet/naex</url> -->
+    <author email="vlkjan6@fel.cvut.cz">Jan Vlk</author>
+
+    <buildtool_depend>ament_cmake</buildtool_depend>
+
+    <depend>rclcpp</depend>
+    <depend>tf2_ros</depend>
+    <depend>pcl_ros</depend>
+    <depend>sensor_msgs</depend>
+    <depend>pcl_conversions</depend>
+
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+</package>
